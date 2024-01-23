@@ -3,27 +3,46 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Amatic";
+    line-height: 200px;
     font-size: 30px;
     text-align: center;
+
     /* outline: 1px solid red; */
-} 
+}
 
 
 .caja1 {
-    display: block;
     width: 200px;
     height: 200px;
-    line-height: 200px;
-    margin: auto; /*lo centra porque ya hay width definido*/
+    display: block;
     background-color: greenyellow;
 }
 
+.test{
+    background-color: fuchsia;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.caja1:nth-child(1) {
+    display: block;
+    margin-bottom: 90px;
+    background-color: blue;
+}
+
+.caja1:nth-child(2) {
+    display: block;
+    box-sizing: content-box;
+    margin-top: 20px;
+    background-color: red;
+    padding-left: 50px;
+}
+
 .caja2 {
-    display: inline-block; /*elementos enlinea*/
     width: 200px;
     height: 200px;
-    line-height: 200px;
+    display: inline-block;
     background-color: orange;
     margin: 70px 40px;
 }
-
