@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic';
+    /* outline: 1px solid red; */
+}
+
+.cajas{
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+    background-color: d;
+}
+
+.cajas:nth-child(1){
+    border: thin solid purple;
+}
+.cajas:nth-child(2){
+    border: medium dashed orange;
+}
+.cajas:nth-child(3){
+    border: thick hidden peru;
+}
+.cajas:nth-child(4){
+    border: 12px double mediumblue;
+}
+.cajas:nth-child(5){
+    border: 12px groove greenyellow;
+}
+.cajas:nth-child(6){
+    border: 12px ridge linen;
+}
+.cajas:nth-child(7){
+    border: 12px inset palegreen;
+}
+.cajas:nth-child(8){
+    border: 12px outset paleturquoise;
+}
+
+/*Buscar por colores pale..,dark, light, medium
+
+linen
+
+*/
