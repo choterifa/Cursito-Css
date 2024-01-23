@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amatic";
+    font-size: 30px;
+    text-align: center;
+    /* outline: 1px solid red; */
+} 
+
+
+.caja1 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    margin: auto; /*lo centra porque ya hay width definido*/
+    background-color: greenyellow;
+}
+
+.caja2 {
+    display: inline-block; /*elementos enlinea*/
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background-color: orange;
+    margin: 70px 40px;
+}
+
