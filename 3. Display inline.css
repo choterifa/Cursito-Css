@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic';
+    /* outline: 1px solid red; */
+}
+
+.enlace {
+    display: inline;
+    background-color: red;
+    color: snow;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 20px;
+    /* width: 200px;
+    height: 200px; son ignoradas por display:inline */
+}
+
+.bloque{
+    background: palegreen;
+    color: black;
+    display: none; /*sacarlo del flujo*/
+}
+
+.opaco{
+    opacity: .4;
+}
+
+/*Property is ignored due to the display. With 'display:
+inline', the width, height, margin-top, margin-bottom,
+and float properties have no
+effect. css(propertyIgnoredDueToDisplay)*/
