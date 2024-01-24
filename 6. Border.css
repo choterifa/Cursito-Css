@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic';
+    /*outline: 1px solid red;*/
+}
+
+.caja1 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-width: 10px 20px 30px;
+    border-style: dashed solid double;
+    border-color: aqua aquamarine antiquewhite;
+}
+
+.caja2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-top: 15px solid yellow;
+    border-right: 10px solid purple;
+    border-bottom: 15px solid orange;
+    border-left: 10px solid orangered;
+} 
