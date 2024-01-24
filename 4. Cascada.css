@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic';
+    /*outline: 1px solid red;*/ 
+}
+
+h1+.titulo{ /*mas grande = hacerle caso*/
+    font-size: 70px;
+}
+
+h1.titulo{ /*no son lo mismo*/
+    font-size: 50px;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.titulo{
+    font-size: 100px;
+}
+
+/*la cascada no existe hasta que la especificidad es la misma*/
