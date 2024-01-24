@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic';
+    font-size: 30px;
+    /*outline: 1px solid red;*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.imagen {
+    display: block;
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 10px groove orange;
+    background-color: yellow;
+    border-radius: 66.6px;
+    /*el fondo indica su tamaño original*/
+}
+
+.imagen2 {
+    border-radius: 10px 90px 40px;
+}
+
+.imagen3 {
+    border-radius: 40px 20px;
+    /*modifica las esquinas*/
+}
+
+p {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+/*en imagenes necesita: block parma centrar
+con with es suficiente para no deformarla
+
+
+border-radius:30px 10px 25px 2px;
+abreviacion de:
+border-top-left-radius: 50px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius:100px;
+
+Siendo sinseros no tiene sentido las propiedades expandaida porque ell atajo hace lo mismo
+
+con dos valores modifica las esquinas
+*/
