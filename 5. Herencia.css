@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic';
+    /*outline: 1px solid red;*/
+}
+
+.padre {
+    font-size: 30px;
+    /*heredando*/
+    font-family: amatic;
+    height: 50vh;
+    padding-top: 90px;
+    background-color: yellow;
+    /*heredando*/
+}
+
+.hijo {
+    background-color: red;
+    padding: inherit;
+    /*forzar herencia del padre*/
+}
