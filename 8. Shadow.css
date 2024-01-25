@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic';
+    /*outline: 1px solid red;*/
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.caja {
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+    background-color: red;
+    color: aqua;
+    /* border: 5px solid;*/
+    /* outline: 5px solid; */
+    box-shadow: 50px 40px 1 0 0 currentColor;
+}
+
+.caja2 {
+    border-radius: 50%;
+    box-shadow: 120px 120px 10px darkblue;
+    /*es una copia del elemento tal cual su forma*/
+}
+
+.caja3 {
+    margin: 30px auto;
+    background-color: yellow;
+    box-shadow: 150px 0 0 20px darkblue;
+    /*Expande 20 por lado*/
+}
+
+/*box-shadow: h-offset v-offset blur spread color; */
+/*Border, outline box shadow toman el color del texto*/
