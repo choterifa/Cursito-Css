@@ -155,3 +155,5 @@ graph TD;
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
+
+![Alt](https://repobeats.axiom.co/api/embed/72043a0e3d757b31ca74cfac9956834846a81fe6.svg "Repobeats analytics image")
