@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic';
+    font-size: 35px;
+    /*outline: 1px solid red;*/
+}
+
+body {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+    width: 400px;
+    height: auto;
+    padding: 25px 20px 40px;
+    border-radius: 10px;
+    /* background-color: red; */
+    box-shadow: 10px 20px 30px 0 rgba(0, 0, 0, 0.417);
+}
+
+.card2{/*imagen no redondeada*/
+    padding: 0 0 40px;
+}
+
+.contenedor__textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    
+    /* background-color: rgba(255, 255, 0, 0.193) ; */
+}
+
+.title{
+}
+
+.copy{
+    text-align: justify;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    /* vertical-align: top; */
+    width: 100%;
+    /*ocupa el 100% de su contenedor no necesariamente del figure*/
+}
+
+.img2{
+    border-radius: 10px 10px 0 0;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.enlace2{
+    text-align: center;
+}
+
+.enlace3{
+    display: block;
+    width: 100%;
+    background-color: #f59d44;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.Goku{
+    width: 400px;
+    filter: drop-shadow(10px 10px 20px gold );
+}
+
+.spiderman{
+    width: 600px;
+    filter: drop-shadow(10px 10px 20px red);
+}
