@@ -11,13 +11,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 .caja {
     width: 150px;
     height: 150px;
-    margin: 40px;
+    margin-top: 40px;
     background-color: red;
     color: aqua;
     /* border: 5px solid;*/
@@ -32,10 +32,24 @@
 }
 
 .caja3 {
-    margin: 30px auto;
+    margin-top: 200px;
     background-color: yellow;
     box-shadow: 150px 0 0 20px darkblue;
     /*Spread Expande 20 por cada lado ojo*/
+}
+
+.img__container {
+    width: 350px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: red;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    box-shadow: 25px 15px 30px 5px #99372a8b;
+    /*Agregar opacidad a las sombras siempre*/
 }
 
 /*box-shadow: h-offset v-offset blur spread color; */
