@@ -35,7 +35,7 @@
     margin: 30px auto;
     background-color: yellow;
     box-shadow: 150px 0 0 20px darkblue;
-    /*Expande 20 por lado*/
+    /*Spread Expande 20 por cada lado ojo*/
 }
 
 /*box-shadow: h-offset v-offset blur spread color; */
