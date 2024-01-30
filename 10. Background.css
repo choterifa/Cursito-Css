@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic';
+    /*outline: 1px solid red;*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container {
+    margin-top: 40px;
+    width: 30%;
+    height: 400px;
+    background-color: red;
+    background-image: url(Imagenes/cloud.fill.png);
+    background-repeat: no-repeat;
+    /* background-position: bottom 120px right 80px; */
+    background-size: contain;
+    
+}
+
+.patterns {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    background-image: url(Imagenes/moroccan-flower-dark.webp);
+}
+
+.pattern2 {
+    background-repeat: repeat-x;
+}
+
+.pattern3 {
+    background-repeat: repeat-y;
+}
+
+ /*right 50px lo empuja partiendo del indicador hacia el lado contrario 
+    su usa porque pues con indicadores no se puede salir de la caja y al poner -px ya podrias*/
+
+ /*no importa el orden si es con indicaciones*/
+ /* background-position: x , y*/
+ /* background-position: top bottom left right center; */
