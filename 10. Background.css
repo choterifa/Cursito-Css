@@ -21,9 +21,11 @@ body {
     background-color: red;
     background-image: url(Imagenes/cloud.fill.png);
     background-repeat: no-repeat;
-    /* background-position: bottom 120px right 80px; */
     background-size: contain;
-    
+    /* background-size: 200px; */
+    /* background: red url(Imagenes/cloud.fill.png) no-repeat; ATAJO */
+    /* background-position: bottom 120px right 80px; */
+    /*ajustar a su caja*/
 }
 
 .patterns {
@@ -41,9 +43,9 @@ body {
     background-repeat: repeat-y;
 }
 
- /*right 50px lo empuja partiendo del indicador hacia el lado contrario 
+/*right 50px lo empuja partiendo del indicador hacia el lado contrario 
     su usa porque pues con indicadores no se puede salir de la caja y al poner -px ya podrias*/
 
- /*no importa el orden si es con indicaciones*/
- /* background-position: x , y*/
- /* background-position: top bottom left right center; */
+/*no importa el orden si es con indicaciones*/
+/* background-position: x , y*/
+/* background-position: top bottom left right center; */

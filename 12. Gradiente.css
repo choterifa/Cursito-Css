@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic';
+    /*outline: 1px solid red;*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.gradiente {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    /*queda de fondo*/
+    background-image: linear-gradient(to right top, red, yellow, green);
+
+}
+
+
+.stop {
+    background-image: linear-gradient(red 70%, yellow 90%);
+    /*con stops*/
+}
+
+
+.container {
+    width: 60vw;
+    height: 60vh;
+    background-color: red;
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 0.506) 0%, rgba(9, 9, 121, 0.571) 35%, rgba(0, 213, 255, 0.434) 100%),
+        url(https://images.unsplash.com/photo-1615397349754-cfa2066a298e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjE3NjF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3NzQ3MTh8&ixlib=rb-4.0.3&q=80&w=1080);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+/*
+ background-image: linear-gradient(to direcccion, color);
+
+ top
+ left
+ right
+ bottom
+
+
+
+
+
+*/
