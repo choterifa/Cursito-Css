@@ -6,35 +6,42 @@
     /* outline: 1px solid red; */
 }
 
-.cajas{
+.cajas {
     width: 200px;
     height: 200px;
     margin: 12px;
-    background-color: d;
+    /* background-color: yellowgreen; */
 }
 
-.cajas:nth-child(1){
+.cajas:nth-child(1) {
     border: thin solid purple;
 }
-.cajas:nth-child(2){
+
+.cajas:nth-child(2) {
     border: medium dashed orange;
 }
-.cajas:nth-child(3){
+
+.cajas:nth-child(3) {
     border: thick hidden peru;
 }
-.cajas:nth-child(4){
+
+.cajas:nth-child(4) {
     border: 12px double mediumblue;
 }
-.cajas:nth-child(5){
+
+.cajas:nth-child(5) {
     border: 12px groove greenyellow;
 }
-.cajas:nth-child(6){
+
+.cajas:nth-child(6) {
     border: 12px ridge linen;
 }
-.cajas:nth-child(7){
+
+.cajas:nth-child(7) {
     border: 12px inset palegreen;
 }
-.cajas:nth-child(8){
+
+.cajas:nth-child(8) {
     border: 12px outset paleturquoise;
 }
 

@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic';
+    /*outline: 1px solid red;*/
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    /* height: 100vh; lo limita*/
+}
+
+.atachment {
+    width: 60%;
+    height: 60vh;
+    background-image: url(Imagenes/Gato.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fixed {
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+}
+
+.full {
+    width: 100vw;
+    height: 100vh;
+}
+
+.titulo {
+    font-family: amatic;
+    font-size: 60px;
+    text-align: center;
+    line-height: 50vh;
+    color: #fff;
+}
+
+.space {
+    height: 60vh;
+}
+
+/* 
+.triangulo {
+    width: 700px;
+    height: 700px;
+    background-color: red;
+    background-image: url(Imagenes/triangulito.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+} */
