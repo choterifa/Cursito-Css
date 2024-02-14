@@ -1,5 +1,5 @@
 :root {
-    background-color: red;
+    /* background-color: red; */
     /*la etiqueta html*/
 }
 
@@ -98,7 +98,7 @@
 }
 
 .formulario:focus-within {
-    background-color: rgba(153, 205, 50, 0.642);
+    background-color: rgba(153, 205, 50, 0.254);
 }
 
 input[type="text"],
@@ -131,6 +131,27 @@ label[for="check"] {
 input:focus {
     background-color: rgba(230, 238, 175, 0.356);
 }
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+h3:not(.clase) {
+    /*not para negar*/
+    font-size: 30px;
+    background-color: rgba(255, 0, 0, 0.464);
+}
+
+h3:not(:hover) {
+    /*funciona con pseudoclases*/
+    text-decoration: line-through;
+    font-size: 40px;
+}
+
+
+
 
 /*las pseudoclases agregan 10 de especificidad
 root = el html
