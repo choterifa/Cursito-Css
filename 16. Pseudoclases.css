@@ -1,4 +1,5 @@
 :root {
+    scroll-behavior: smooth;
     /* background-color: red; */
     /*la etiqueta html*/
 }
@@ -53,7 +54,6 @@
     /*activa al estar siendo presionado*/
 }
 
-
 .evento {
     display: inline-block;
     margin: 20px;
@@ -67,9 +67,10 @@
 #target {
     width: 200px;
     height: 200px;
-    margin: 20px;
+    margin: 40px;
     margin-top: 80px;
     background-color: yellow;
+
 }
 
 #target:target {
@@ -90,6 +91,7 @@
     background-color: #f2f2f2;
     box-shadow: 0, 0, 5px;
     padding: 20px;
+    margin: 90px auto;
 }
 
 .formulario_titulo {
@@ -98,6 +100,7 @@
 }
 
 .formulario:focus-within {
+    /*cuadno uno de sus hijos esta en focus*/
     background-color: rgba(153, 205, 50, 0.254);
 }
 
@@ -116,7 +119,7 @@ input[type="text"],
 
 input[type="checkbox"] {
     width: auto;
-    display: inline;
+    display: inline-block;
 }
 
 input[type="checkbox"]:checked+label {
@@ -125,16 +128,18 @@ input[type="checkbox"]:checked+label {
 }
 
 label[for="check"] {
-    font-size: 22px;
+    font-size: 25px;
+    margin-left: 10px;
 }
 
 input:focus {
-    background-color: rgba(230, 238, 175, 0.356);
+    background-color: rgba(180, 206, 11, 0.356);
 }
 
 h3 {
     text-align: center;
     padding: 10px;
+    font: 1em sans-serif;
     font-size: 30px;
 }
 
@@ -146,17 +151,55 @@ h3:not(.clase) {
 
 h3:not(:hover) {
     /*funciona con pseudoclases*/
+    font-family: 'amatic';
     text-decoration: line-through;
     font-size: 40px;
 }
 
+.cajas {
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    margin: 10px;
+}
+
+
+/*Unico en su tipo*/
+
+.container {
+    margin: 50px 0;
+}
+
+
+.contenedor_cajas {
+    outline: 5px solid red;
+    margin: 30px;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+}
+
+p:only-of-type {
+    font-size: 50px;
+}
+
+.cajas:only-of-type {
+    background-color: red;
+}
 
 
 
 /*las pseudoclases agregan 10 de especificidad
 root = el html
 
-
+hover en moviles es un click
 
 
 */
