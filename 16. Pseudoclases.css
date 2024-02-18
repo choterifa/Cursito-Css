@@ -184,10 +184,12 @@ h3:not(:hover) {
     font-size: 50px;
     text-align: center;
     line-height: 200px;
+    margin: 5px 0;
 }
 
-p:only-of-type {
-    font-size: 50px;
+.box:only-of-type {
+    /*que no tenga hermanos de su mismo tipo*/
+    background-color: yellowgreen;
 }
 
 .cajas:only-of-type {
