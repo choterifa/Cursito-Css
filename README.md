@@ -1,4 +1,4 @@
-# Curso de css
+# Curso de css 2
 Aquí subire todos los apuntes realizado para para la practica de git.
 
 # Apuntes MD
