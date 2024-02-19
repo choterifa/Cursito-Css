@@ -17,16 +17,26 @@ body {
 
 .container {
     display: flex;
+<<<<<<< HEAD
 
     width: 90%;
     height: 90vh;
     background-color: red;
+=======
+    width: 90%;
+    background-color: rgba(8, 8, 8, 0.326);
+>>>>>>> 5faa1756b255db86d1d30c6040c5f031e08ff1b8
 }
 
 .cajas__colores {
     margin: 5px;
+<<<<<<< HEAD
     width: 100%;
     height: 300px;
+=======
+    width: 300px;
+    height: 200px;
+>>>>>>> 5faa1756b255db86d1d30c6040c5f031e08ff1b8
     background-color: yellow;
 }
 
